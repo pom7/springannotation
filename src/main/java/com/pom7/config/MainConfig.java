@@ -10,6 +10,6 @@ import org.springframework.context.annotation.Configuration;
 public class MainConfig {
     @Bean("person01")
     public Person person(){
-      return   new Person("lisi",18);
+      return   new Person("lisi",19);
     }
 }
